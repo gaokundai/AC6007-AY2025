@@ -38,5 +38,5 @@ def creditPrediction():
         r = "Not Approved"
     return(render_template("creditPrediction.html",r=r))
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     app.run()
